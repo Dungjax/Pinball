@@ -31,8 +31,6 @@ right_base_bat_img=transform.rotate(base_bat_img,90)
 push_block_img=take_image_ca("ice_block.png")
 #base_ball
 base_ball_img=take_image_ca("base_ball.png")
-#crown
-crown_img=take_image_ca("crown.png")
 #disco_ball
 disco_ball_img=take_image_ca("disco_ball.png")
 #ice_plate_rectangle
@@ -255,7 +253,6 @@ while 1:
 		space.remove(base_ball.body,base_ball.shape)
 		base_ball=Base_ball(150,1800)
 		res=0
-	#screen.blit(crown_img,(440,190))
 	ice_rectangle.animation()
 	disco_ball.animation()
 	left_laser_blade.animation()
