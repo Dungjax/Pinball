@@ -32,16 +32,12 @@ right_base_bat_img=transform.rotate(base_bat_img,90)
 push_block_img=take_image_ca("ice_block.png")
 #base_ball
 base_ball_img=take_image_ca("base_ball.png")
-#crown
-crown_img=take_image_ca("crown.png")
 #disco_ball
 disco_ball_img=take_image_ca("disco_ball.png")
 #ice_plate_rectangle
 ice_plate_rectangle=take_image_ca("ice_plate_rectangle.png")
 #laser_blade
 laser_blade_img=take_image_ca("laser_blade.png")
-#play_icon
-play_icon=take_image_ca("play_icon.png")
 ###sound
 def take_sound(name):
 	return mixer.Sound(name)
